@@ -14,7 +14,7 @@ export default async function PainelLayout({
 }: {
   children: React.ReactNode
 }) {
-  // Verificar autenticação
+  
   const session = await auth.api.getSession({
     headers: await headers()
   })
