@@ -73,6 +73,6 @@ export default function DeleteCategoria({ categoria }: DeleteCategoriaProps) {
           </Button>
         </DialogFooter>
       </DialogContent>
-    </Dialog>
+    </Dialog> 
   )
 }
